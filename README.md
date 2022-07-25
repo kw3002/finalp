@@ -99,7 +99,7 @@ library(tseries)
 
 (2) Calculate annual bank fees
 
-(3) Read csv
+(3) Read csv: I made "tableau bank fee.csv" file from Bankrate.
 
 bankfees <- read_csv("tableau bank fee.csv")
 
