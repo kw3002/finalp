@@ -131,8 +131,7 @@ model1 <- lm(unbanked_rate~ bank_fees + x20th_percentile_limit, regression1)
 summary(model1)
 I got the below results:
 Call:
-lm(formula = unbanked_rate ~ bank_fees + x20th_percentile_limit, 
-    data = regression1)
+lm(formula = unbanked_rate ~ bank_fees + x20th_percentile_limit, data = regression1)
 
 Residuals:
          1          2          3          4          5          6 
@@ -159,8 +158,7 @@ summary(model2)
 
 I got the below results :
 Call:
-lm(formula = underbanked_rate ~ bank_fees + x20th_percentile_limit, 
-    data = regression1)
+lm(formula = underbanked_rate ~ bank_fees + x20th_percentile_limit, data = regression1)
 
 Residuals:
         1         2         3         4         5         6 
@@ -241,5 +239,3 @@ I got the below results.
 lag Autocorrelation D-W Statistic p-value
    1      -0.5664521       2.96986    0.99
  Alternative hypothesis: rho != 0
-
-
