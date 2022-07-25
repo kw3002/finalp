@@ -77,7 +77,7 @@ This paper makes the simple assumption that only bank fees and household income 
 
 Charts 1 through 4 were created using Tableau. Please refer to the tableau file(finalvisualizations.twb) in the repository for details.
 
-・Chart1: I used "bankfee_data.csv" file made by R.
+・Chart1: I used "bankfee_data.csv" file made from Bankrate by R.
 
 ・CHart2: I used "household income.csv" file made from US census.
 
