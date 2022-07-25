@@ -75,7 +75,15 @@ This paper makes the simple assumption that only bank fees and household income 
           
 # Visualization
 
-Charts 1 through 4 were created using Tableau. Please refer to the tableau file in the repository for detailed instructions.
+Charts 1 through 4 were created using Tableau. Please refer to the tableau file in the repository for details.
+
+・Chart1: I used "bankfee_data.csv" file made by R.
+
+・CHart2: I used "household income.csv" file made from US census.
+
+・CHart3: I used "unbankedrate.xlsx" file made from FDIC data
+
+・CHart4: I used "reasons.xlsx" made from FDIC data.
 
 # Statistical analysis using R
 
@@ -112,7 +120,7 @@ write_csv(bankfees_tableau, "bankfee_data.csv")
 
 2. Regresion Analysis
 
-(1) Read csv
+(1) Read csv:I made the "regression.csv" from Bankrate, US census and FDIC data by myself.
 
 regression <- read_csv("regression.csv")
 
